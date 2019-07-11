@@ -1,0 +1,50 @@
+body {
+  background-color: rgba(101, 104, 95, 0.404);
+  width: 80vw;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 30vh;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-x .cell.small-12.medium-4 .col1,
+.grid-x .cell.small-12.medium-4 .col2,
+.grid-x .cell.small-12.medium-4 .col3 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  text-align: center;
+}
+
+.grid-x .cell.small-12.medium-6 .card {
+  align-items: center;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+/* .card {
+	align-items: center;
+} */
